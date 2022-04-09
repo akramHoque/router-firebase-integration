@@ -5,7 +5,7 @@ import app from '../../firebase.init';
 import useFirebase from '../../hooks/useFirebase';
 const auth = getAuth(app)
 const Products = () => {
-      const [user] = useAuthState(auth)
+      const [user] = useAuthState(auth);
       return (
             <div>
                   <h2>This is products </h2>
